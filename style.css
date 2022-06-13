@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.intro {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.galeria {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+}
+
+div.gallery {
+    margin: 5px;
+    width: 180px;
+    height: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 180px;
+    height: 180px;
+}
+
+form {
+    text-align: center;
+}
+
+header {
+    background-size: contain;
+    background-image: url("header.jpg");
+}
+
+header .cabecera {
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.logo {
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+}
+
+.pie {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.formulario {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.navegador {
+
+    justify-content: center;
+
+}
+
+.estadisticas {
+    padding-top: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.dataTables_length{
+    padding-bottom: 15px;
+}
